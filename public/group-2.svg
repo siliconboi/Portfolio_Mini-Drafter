@@ -1,0 +1,35 @@
+<svg width="467" height="241" viewBox="0 0 467 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H72.8L133 116.9L191.8 0H264.6V240.8H191.8V112.35L147.35 196.35H117.6L72.8 112.35V240.8H0V0Z" fill="white"/>
+<mask id="mask0_528_1411" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="265" height="241">
+<path d="M0 0H72.8L133 116.9L191.8 0H264.6V240.8H191.8V112.35L147.35 196.35H117.6L72.8 112.35V240.8H0V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_528_1411)">
+<circle cx="235" cy="224" r="37" fill="#040404"/>
+<mask id="mask1_528_1411" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="198" y="187" width="74" height="74">
+<circle cx="235" cy="224" r="37" fill="#040404"/>
+</mask>
+<g mask="url(#mask1_528_1411)">
+<circle cx="214.135" cy="212.594" r="7.23308" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="251.136" cy="200.632" r="6.95489" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="248.075" cy="211.481" r="3.33835" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="261.707" cy="241.805" r="3.61654" fill="#D9D9D9" fill-opacity="0.3"/>
+</g>
+</g>
+<path d="M297 0H466.05V53.2H382.05V96.95H458.7V141.05H382.05V187.6H466.05V240.8H297V0Z" fill="white"/>
+<mask id="mask2_528_1411" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="297" y="0" width="170" height="241">
+<path d="M297 0H466.05V53.2H382.05V96.95H458.7V141.05H382.05V187.6H466.05V240.8H297V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask2_528_1411)">
+<circle cx="436.5" cy="174.5" r="54.5" fill="#040404"/>
+<mask id="mask3_528_1411" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="382" y="120" width="109" height="109">
+<circle cx="436.5" cy="174.5" r="54.5" fill="#040404"/>
+</mask>
+<g mask="url(#mask3_528_1411)">
+<circle cx="405.767" cy="157.699" r="10.6541" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="397.981" cy="211.38" r="5.32707" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="433.632" cy="213.429" r="9.83459" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="460.267" cy="140.079" r="10.2444" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="455.76" cy="156.06" r="4.91729" fill="#D9D9D9" fill-opacity="0.3"/>
+</g>
+</g>
+</svg>

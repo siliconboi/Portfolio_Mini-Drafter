@@ -1,0 +1,39 @@
+<svg width="840" height="913" viewBox="0 0 840 913" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="401" cy="451" r="396" stroke="#40C2AB" stroke-width="10"/>
+<circle cx="423.5" cy="846.5" r="66.5" fill="#040404"/>
+<mask id="mask0_528_3403" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="357" y="780" width="133" height="133">
+<circle cx="423.5" cy="846.5" r="66.5" fill="#040404"/>
+</mask>
+<g mask="url(#mask0_528_3403)">
+<circle cx="386" cy="826" r="13" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="376.5" cy="891.5" r="6.5" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="420" cy="894" r="12" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="452.5" cy="804.5" r="12.5" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="447" cy="824" r="6" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="471.5" cy="878.5" r="6.5" fill="#D9D9D9" fill-opacity="0.3"/>
+</g>
+<circle cx="798.5" cy="461.5" r="38.5" fill="#040404"/>
+<mask id="mask1_528_3403" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="760" y="423" width="77" height="77">
+<circle cx="798.5" cy="461.5" r="38.5" fill="#040404"/>
+</mask>
+<g mask="url(#mask1_528_3403)">
+<circle cx="776.789" cy="449.632" r="7.52632" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="771.29" cy="487.553" r="3.76316" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="796.474" cy="489" r="6.94737" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="815.29" cy="437.184" r="7.23684" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="812.105" cy="448.474" r="3.47368" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="826.29" cy="480.026" r="3.76316" fill="#D9D9D9" fill-opacity="0.3"/>
+</g>
+<circle cx="423.5" cy="66.5" r="66.5" fill="#040404"/>
+<mask id="mask2_528_3403" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="357" y="0" width="133" height="133">
+<circle cx="423.5" cy="66.5" r="66.5" fill="#040404"/>
+</mask>
+<g mask="url(#mask2_528_3403)">
+<circle cx="386" cy="46" r="13" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="376.5" cy="111.5" r="6.5" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="420" cy="114" r="12" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="452.5" cy="24.5" r="12.5" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="447" cy="44" r="6" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="471.5" cy="98.5" r="6.5" fill="#D9D9D9" fill-opacity="0.3"/>
+</g>
+</svg>
