@@ -1,17 +1,8 @@
-import type { NextPage } from "next";
-import { useCallback } from "react";
-import { useRouter } from "next/router";
 
-const Footer: NextPage = () => {
-  const router = useRouter();
-
-  const onLogoIconClick = useCallback(() => {
-    router.push("/profile");
-  }, [router]);
-
+const Footer = () => {
   return (
-    <div>
-    <div className="absolute top-[399.63rem] left-[0rem] bg-mediumaquamarine w-[94.5rem] h-[40.5rem] overflow-hidden text-[1.5rem] text-gray-100">
+    <div className="relative bg-gray-100 w-full h-[56.38rem] overflow-hidden text-left text-[4.5rem] text-white font-poppins">
+    <div className="absolute left-[0rem] bg-mediumaquamarine w-[94.5rem] h-[40.5rem] overflow-hidden text-[1.5rem] text-gray-100">
         <div className="absolute top-[8.44rem] left-[54.13rem] w-[25.75rem] h-[3.5rem]">
           <div className="absolute top-[0rem] left-[0rem] rounded-8xs bg-turquoise flex flex-row py-[0.63rem] px-[1.25rem] items-center justify-center gap-[0.63rem]">
             <div className="relative capitalize font-medium">home</div>
@@ -92,69 +83,6 @@ const Footer: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[calc(50%_-_3648px)] left-[calc(50%_-_756px)] bg-gray-100 shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] w-[94.5rem] h-[5rem] overflow-hidden text-gray-100">
-        <img
-          className="absolute top-[1.13rem] left-[5.06rem] w-[3.13rem] h-[2.75rem] object-cover cursor-pointer"
-          alt=""
-          src="/logo@2x.png"
-          onClick={onLogoIconClick}
-        />
-        <div className="absolute top-[1rem] left-[80.13rem] rounded-8xs bg-turquoise flex flex-row py-[0.63rem] px-[0.94rem] items-center justify-center gap-[0.63rem]">
-          <img
-            className="relative w-[0.94rem] h-[1.04rem] shrink-0"
-            alt=""
-            src="/vector7.svg"
-          />
-          <img
-            className="relative w-[1.12rem] h-[1.13rem] shrink-0 hidden"
-            alt=""
-            src="/vector1.svg"
-          />
-          <div className="relative uppercase font-semibold">contact</div>
-        </div>
-        <div className="absolute top-[1rem] left-[28.38rem] flex flex-row items-center justify-center gap-[1.88rem] text-white">
-          <div className="flex flex-row p-[0.63rem] items-center justify-center gap-[0.63rem]">
-            <div className="relative capitalize font-medium">home</div>
-            <img
-              className="relative w-[0.94rem] h-[0.94rem] shrink-0 overflow-hidden hidden"
-              alt=""
-              src="/up.svg"
-            />
-          </div>
-          <div className="flex flex-row p-[0.63rem] items-center justify-center gap-[0.63rem]">
-            <div className="relative capitalize font-medium">about</div>
-            <img
-              className="relative w-[0.94rem] h-[0.94rem] shrink-0 overflow-hidden"
-              alt=""
-              src="/up.svg"
-            />
-          </div>
-          <div className="flex flex-row p-[0.63rem] items-center justify-center gap-[0.63rem]">
-            <div className="relative capitalize font-medium">projects</div>
-            <img
-              className="relative w-[0.94rem] h-[0.94rem] shrink-0 overflow-hidden hidden"
-              alt=""
-              src="/up.svg"
-            />
-          </div>
-          <div className="flex flex-row p-[0.63rem] items-center justify-center gap-[0.63rem]">
-            <div className="relative capitalize font-medium">skills</div>
-            <img
-              className="relative w-[0.94rem] h-[0.94rem] shrink-0 overflow-hidden hidden"
-              alt=""
-              src="/up.svg"
-            />
-          </div>
-          <div className="flex flex-row p-[0.63rem] items-center justify-center gap-[0.63rem]">
-            <div className="relative capitalize font-medium">achievements</div>
-            <img
-              className="relative w-[0.94rem] h-[0.94rem] shrink-0 overflow-hidden hidden"
-              alt=""
-              src="/up.svg"
-            />
-          </div>
-          </div>
-          </div>
         </div>
   );
 };

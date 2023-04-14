@@ -1,10 +1,4 @@
-import type { NextPage } from "next";
-
-type AboutType = {
-  onClose?: () => void;
-};
-
-const About: NextPage<AboutType> = ({ onClose }) => {
+const About = () => {
   return (
     <div className="relative rounded-3xs bg-white shadow-[-4px_0px_8px_rgba(0,_0,_0,_0.1),_4px_4px_8px_rgba(0,_0,_0,_0.1)] w-[206px] h-[147px] overflow-hidden max-w-full max-h-full text-left text-lg text-gray-100 font-poppins">
       <img
