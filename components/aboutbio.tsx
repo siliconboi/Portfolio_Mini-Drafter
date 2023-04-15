@@ -1,16 +1,18 @@
+import Image from "next/image";
+
 const Aboutbio = () => {
 
   return (
     <>
       <div className="relative bg-gray-100 w-full h-[56.38rem] overflow-hidden text-left text-[4.5rem] text-white font-poppins">
         <div className="absolute left-[0rem] w-[94.5rem] h-[56.38rem] overflow-hidden">
-          <img
+          <Image
             className="absolute h-[104.77%] w-[62.5%] top-[0%] right-[37.5%] bottom-[-4.77%] left-[0%] max-w-full overflow-hidden max-h-full"
             alt=""
             src="/circlesbg.svg"
           />
           <div className="absolute top-[0rem] left-[49.63rem] bg-gray-200 w-[44.88rem] h-[56.38rem]" />
-          <img
+          <Image
             className="absolute top-[0rem] left-[0rem] w-[56.81rem] h-[56.38rem]"
             alt=""
             src="/blur.svg"
@@ -27,12 +29,12 @@ nulla at id egestas odio ornare tellus.`}
 nulla at id egestas odio ornare tellus.`}
             />
             <button className="cursor-pointer [border:none] py-[0.94rem] px-[1.88rem] bg-turquoise absolute top-[31.69rem] left-[0.06rem] rounded-8xs flex flex-row items-center justify-center gap-[0.63rem]">
-              <img
+              <Image
                 className="relative w-[0.94rem] h-[1.04rem] shrink-0"
                 alt=""
                 src="/vector2.svg"
               />
-              <img
+              <Image
                 className="relative w-[1.12rem] h-[1.13rem] shrink-0 hidden"
                 alt=""
                 src="/vector1.svg"
@@ -42,7 +44,7 @@ nulla at id egestas odio ornare tellus.`}
               </div>
             </button>
           </div>
-          <img
+          <Image
             className="absolute top-[20.63rem] left-[10rem] w-[29.13rem] h-[15.05rem]"
             alt=""
             src="/group-2.svg"
