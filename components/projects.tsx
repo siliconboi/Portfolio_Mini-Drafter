@@ -1,16 +1,28 @@
+import Image from "next/image";
+
+import mdigitgub1 from "../public/mdigithub1.svg"
+import materialsymbolsfolderouteline from "../public/materialsymbolsfolderoutline.svg"
+import streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig from "../public/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig.svg"
+import blur from "../public/blur1.svg"
+import image12x from "../public/image-1@2x.png"
+import image42 from "../public/image-4@2x.png"
+import image52 from "../public/image-5@2x.png"
+import vector5 from "../public/vector5.svg"
+import vector1 from "../public/vector1.svg"
+
 const Projects = () => {
   return (
     <div className="relative bg-gray-100 w-full h-[56.38rem] overflow-hidden text-left text-[4rem] text-gray-100 font-poppins">
       <div className="absolute  left-[0rem] w-[94.5rem] h-[56.38rem] overflow-hidden">
-        <img
+        <Image
           className="absolute top-[0rem] left-[57rem] w-[37.5rem] h-[37.5rem]"
           alt=""
-          src="/blur1.svg"
+          src={blur}
         />
-        <img
+        <Image
           className="absolute top-[18.88rem] left-[0rem] w-[37.5rem] h-[37.5rem]"
           alt=""
-          src="/blur1.svg"
+          src={blur}
         />
         <div className="absolute top-[2.5rem] left-[39.19rem] leading-[140.5%] capitalize font-medium text-white">
           projects
@@ -50,47 +62,47 @@ const Projects = () => {
                   <div className="absolute top-[10%] left-[41.51%] leading-[135%] uppercase">
                     html
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[39.72%] top-[0%] right-[60.28%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-1@2x.png"
+                    src={image12x}
                   />
                 </div>
                 <div className="absolute h-full w-[28.93%] top-[0%] right-[30.19%] bottom-[0%] left-[40.88%]">
                   <div className="absolute top-[10%] left-[47.83%] leading-[135%] uppercase">
                     css
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[45.77%] top-[0%] right-[54.23%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-4@2x.png"
+                    src={image42}
                   />
                 </div>
                 <div className="absolute h-full w-[22.64%] top-[0%] right-[0%] bottom-[0%] left-[77.36%]">
                   <div className="absolute top-[10%] left-[61.11%] leading-[135%] uppercase">
                     js
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[58.48%] top-[0%] right-[41.52%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-5@2x.png"
+                    src={image52}
                   />
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[1.19rem] left-[11.44rem] w-[1.25rem] h-[1.25rem] overflow-hidden"
                 alt=""
-                src="/mdigithub1.svg"
+                src={mdigitgub1} 
               />
-              <img
+              <Image
                 className="absolute top-[1.38rem] left-[13.31rem] w-[0.88rem] h-[0.88rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig}
               />
-              <img
+              <Image
                 className="absolute top-[0.88rem] left-[1.44rem] w-[1.88rem] h-[1.88rem] overflow-hidden"
                 alt=""
-                src="/materialsymbolsfolderoutline.svg"
+                src={materialsymbolsfolderouteline}
               />
             </div>
           </div>
@@ -128,47 +140,47 @@ const Projects = () => {
                   <div className="absolute top-[10%] left-[41.51%] leading-[135%] uppercase">
                     html
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[39.72%] top-[0%] right-[60.28%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-1@2x.png"
+                    src={image12x}
                   />
                 </div>
                 <div className="absolute h-full w-[28.93%] top-[0%] right-[30.19%] bottom-[0%] left-[40.88%]">
                   <div className="absolute top-[10%] left-[47.83%] leading-[135%] uppercase">
                     css
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[45.77%] top-[0%] right-[54.23%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-4@2x.png"
+                    src={image42}
                   />
                 </div>
                 <div className="absolute h-full w-[22.64%] top-[0%] right-[0%] bottom-[0%] left-[77.36%]">
                   <div className="absolute top-[10%] left-[61.11%] leading-[135%] uppercase">
                     js
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[58.48%] top-[0%] right-[41.52%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-5@2x.png"
+                    src={image52}
                   />
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[1.19rem] left-[11.44rem] w-[1.25rem] h-[1.25rem] overflow-hidden"
                 alt=""
-                src="/mdigithub1.svg"
+                src={mdigitgub1}
               />
-              <img
+              <Image
                 className="absolute top-[1.38rem] left-[13.31rem] w-[0.88rem] h-[0.88rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig}
               />
-              <img
+              <Image
                 className="absolute top-[0.88rem] left-[1.44rem] w-[1.88rem] h-[1.88rem] overflow-hidden"
                 alt=""
-                src="/materialsymbolsfolderoutline.svg"
+                src={materialsymbolsfolderouteline}
               />
             </div>
           </div>
@@ -206,47 +218,47 @@ const Projects = () => {
                   <div className="absolute top-[10%] left-[41.51%] leading-[135%] uppercase">
                     html
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[39.72%] top-[0%] right-[60.28%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-1@2x.png"
+                    src={image12x}
                   />
                 </div>
                 <div className="absolute h-full w-[28.93%] top-[0%] right-[30.19%] bottom-[0%] left-[40.88%]">
                   <div className="absolute top-[10%] left-[47.83%] leading-[135%] uppercase">
                     css
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[45.77%] top-[0%] right-[54.23%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-4@2x.png"
+                    src={image42}
                   />
                 </div>
                 <div className="absolute h-full w-[22.64%] top-[0%] right-[0%] bottom-[0%] left-[77.36%]">
                   <div className="absolute top-[10%] left-[61.11%] leading-[135%] uppercase">
                     js
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[58.48%] top-[0%] right-[41.52%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-5@2x.png"
+                    src={image52}
                   />
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[1.19rem] left-[11.44rem] w-[1.25rem] h-[1.25rem] overflow-hidden"
                 alt=""
-                src="/mdigithub1.svg"
+                src={mdigitgub1}
               />
-              <img
+              <Image
                 className="absolute top-[1.38rem] left-[13.31rem] w-[0.88rem] h-[0.88rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig}
               />
-              <img
+              <Image
                 className="absolute top-[0.88rem] left-[1.44rem] w-[1.88rem] h-[1.88rem] overflow-hidden"
                 alt=""
-                src="/materialsymbolsfolderoutline.svg"
+                src={materialsymbolsfolderouteline}
               />
             </div>
           </div>
@@ -284,47 +296,47 @@ const Projects = () => {
                   <div className="absolute top-[10%] left-[41.51%] leading-[135%] uppercase">
                     html
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[39.72%] top-[0%] right-[60.28%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-1@2x.png"
+                    src={image12x}
                   />
                 </div>
                 <div className="absolute h-full w-[28.93%] top-[0%] right-[30.19%] bottom-[0%] left-[40.88%]">
                   <div className="absolute top-[10%] left-[47.83%] leading-[135%] uppercase">
                     css
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[45.77%] top-[0%] right-[54.23%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-4@2x.png"
+                    src={image42}
                   />
                 </div>
                 <div className="absolute h-full w-[22.64%] top-[0%] right-[0%] bottom-[0%] left-[77.36%]">
                   <div className="absolute top-[10%] left-[61.11%] leading-[135%] uppercase">
                     js
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[58.48%] top-[0%] right-[41.52%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-5@2x.png"
+                    src={image52}
                   />
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[1.19rem] left-[11.44rem] w-[1.25rem] h-[1.25rem] overflow-hidden"
                 alt=""
-                src="/mdigithub1.svg"
+                src={mdigitgub1}
               />
-              <img
+              <Image
                 className="absolute top-[1.38rem] left-[13.31rem] w-[0.88rem] h-[0.88rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig}
               />
-              <img
+              <Image
                 className="absolute top-[0.88rem] left-[1.44rem] w-[1.88rem] h-[1.88rem] overflow-hidden"
                 alt=""
-                src="/materialsymbolsfolderoutline.svg"
+                src={materialsymbolsfolderouteline}
               />
             </div>
           </div>
@@ -362,47 +374,47 @@ const Projects = () => {
                   <div className="absolute top-[10%] left-[41.51%] leading-[135%] uppercase">
                     html
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[39.72%] top-[0%] right-[60.28%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-1@2x.png"
+                    src={image12x}
                   />
                 </div>
                 <div className="absolute h-full w-[28.93%] top-[0%] right-[30.19%] bottom-[0%] left-[40.88%]">
                   <div className="absolute top-[10%] left-[47.83%] leading-[135%] uppercase">
                     css
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[45.77%] top-[0%] right-[54.23%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-4@2x.png"
+                    src={image42}
                   />
                 </div>
                 <div className="absolute h-full w-[22.64%] top-[0%] right-[0%] bottom-[0%] left-[77.36%]">
                   <div className="absolute top-[10%] left-[61.11%] leading-[135%] uppercase">
                     js
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[58.48%] top-[0%] right-[41.52%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-5@2x.png"
+                    src={image52}
                   />
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[1.19rem] left-[11.44rem] w-[1.25rem] h-[1.25rem] overflow-hidden"
                 alt=""
-                src="/mdigithub1.svg"
+                src={mdigitgub1}
               />
-              <img
+              <Image
                 className="absolute top-[1.38rem] left-[13.31rem] w-[0.88rem] h-[0.88rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig}
               />
-              <img
+              <Image
                 className="absolute top-[0.88rem] left-[1.44rem] w-[1.88rem] h-[1.88rem] overflow-hidden"
                 alt=""
-                src="/materialsymbolsfolderoutline.svg"
+                src={materialsymbolsfolderouteline}
               />
             </div>
           </div>
@@ -440,47 +452,47 @@ const Projects = () => {
                   <div className="absolute top-[10%] left-[41.51%] leading-[135%] uppercase">
                     html
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[39.72%] top-[0%] right-[60.28%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-1@2x.png"
+                    src={image12x}
                   />
                 </div>
                 <div className="absolute h-full w-[28.93%] top-[0%] right-[30.19%] bottom-[0%] left-[40.88%]">
                   <div className="absolute top-[10%] left-[47.83%] leading-[135%] uppercase">
                     css
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[45.77%] top-[0%] right-[54.23%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-4@2x.png"
+                    src={image42}
                   />
                 </div>
                 <div className="absolute h-full w-[22.64%] top-[0%] right-[0%] bottom-[0%] left-[77.36%]">
                   <div className="absolute top-[10%] left-[61.11%] leading-[135%] uppercase">
                     js
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[58.48%] top-[0%] right-[41.52%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-5@2x.png"
+                    src={image52}
                   />
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[1.19rem] left-[11.44rem] w-[1.25rem] h-[1.25rem] overflow-hidden"
                 alt=""
-                src="/mdigithub1.svg"
+                src={mdigitgub1}
               />
-              <img
+              <Image
                 className="absolute top-[1.38rem] left-[13.31rem] w-[0.88rem] h-[0.88rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig}
               />
-              <img
+              <Image
                 className="absolute top-[0.88rem] left-[1.44rem] w-[1.88rem] h-[1.88rem] overflow-hidden"
                 alt=""
-                src="/materialsymbolsfolderoutline.svg"
+                src={materialsymbolsfolderouteline}
               />
             </div>
           </div>
@@ -518,47 +530,47 @@ const Projects = () => {
                   <div className="absolute top-[10%] left-[41.51%] leading-[135%] uppercase">
                     html
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[39.72%] top-[0%] right-[60.28%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-1@2x.png"
+                    src={image12x}
                   />
                 </div>
                 <div className="absolute h-full w-[28.93%] top-[0%] right-[30.19%] bottom-[0%] left-[40.88%]">
                   <div className="absolute top-[10%] left-[47.83%] leading-[135%] uppercase">
                     css
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[45.77%] top-[0%] right-[54.23%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-4@2x.png"
+                    src={image42}
                   />
                 </div>
                 <div className="absolute h-full w-[22.64%] top-[0%] right-[0%] bottom-[0%] left-[77.36%]">
                   <div className="absolute top-[10%] left-[61.11%] leading-[135%] uppercase">
                     js
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[58.48%] top-[0%] right-[41.52%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-5@2x.png"
+                    src={image52}
                   />
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[1.19rem] left-[11.44rem] w-[1.25rem] h-[1.25rem] overflow-hidden"
                 alt=""
-                src="/mdigithub1.svg"
+                src={mdigitgub1}
               />
-              <img
+              <Image
                 className="absolute top-[1.38rem] left-[13.31rem] w-[0.88rem] h-[0.88rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig}
               />
-              <img
+              <Image
                 className="absolute top-[0.88rem] left-[1.44rem] w-[1.88rem] h-[1.88rem] overflow-hidden"
                 alt=""
-                src="/materialsymbolsfolderoutline.svg"
+                src={materialsymbolsfolderouteline}
               />
             </div>
           </div>
@@ -596,61 +608,61 @@ const Projects = () => {
                   <div className="absolute top-[10%] left-[41.51%] leading-[135%] uppercase">
                     html
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[39.72%] top-[0%] right-[60.28%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-1@2x.png"
+                    src={image12x}
                   />
                 </div>
                 <div className="absolute h-full w-[28.93%] top-[0%] right-[30.19%] bottom-[0%] left-[40.88%]">
                   <div className="absolute top-[10%] left-[47.83%] leading-[135%] uppercase">
                     css
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[45.77%] top-[0%] right-[54.23%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-4@2x.png"
+                    src={image42}
                   />
                 </div>
                 <div className="absolute h-full w-[22.64%] top-[0%] right-[0%] bottom-[0%] left-[77.36%]">
                   <div className="absolute top-[10%] left-[61.11%] leading-[135%] uppercase">
                     js
                   </div>
-                  <img
+                  <Image
                     className="absolute h-full w-[58.48%] top-[0%] right-[41.52%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
                     alt=""
-                    src="/image-5@2x.png"
+                    src={image52}
                   />
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[1.19rem] left-[11.44rem] w-[1.25rem] h-[1.25rem] overflow-hidden"
                 alt=""
-                src="/mdigithub1.svg"
+                src={mdigitgub1}
               />
-              <img
+              <Image
                 className="absolute top-[1.38rem] left-[13.31rem] w-[0.88rem] h-[0.88rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig}
               />
-              <img
+              <Image
                 className="absolute top-[0.88rem] left-[1.44rem] w-[1.88rem] h-[1.88rem] overflow-hidden"
                 alt=""
-                src="/materialsymbolsfolderoutline.svg"
+                src={materialsymbolsfolderouteline}
               />
             </div>
           </div>
         </div>
         <div className="absolute top-[49.06rem] left-[43.06rem] rounded-8xs bg-turquoise flex flex-row py-[0.63rem] px-[0.94rem] items-center justify-center gap-[0.63rem] text-[1.13rem]">
-          <img
+          <Image
             className="relative w-[0.94rem] h-[1.04rem] shrink-0"
             alt=""
-            src="/vector5.svg"
+            src={vector5}
           />
-          <img
+          <Image
             className="relative w-[1.12rem] h-[1.13rem] shrink-0 hidden"
             alt=""
-            src="/vector1.svg"
+            src={vector1}
           />
           <div className="relative uppercase font-semibold">load more</div>
         </div>

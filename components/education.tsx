@@ -1,53 +1,49 @@
-import About from "./about";
-
+import Image from "next/image";
+import circlesbg from "../public/circlesbg.svg"
+import blur from "../public/blur.svg"
+import vector5 from "../public/vector5.svg"
+import vector1 from "../public/vector1.svg"
+import icon from "../public/icon.svg"
 const Abouteducation = () => {
 
   return (
     <>
       <div className="relative bg-gray-100 w-full h-[56.38rem] overflow-hidden text-left text-[4.5rem] text-white font-poppins">
         <div className="absolute left-[0rem] w-[94.5rem] h-[56.38rem] overflow-hidden">
-          <img
+          <Image
             className="absolute h-[104.77%] w-[62.5%] top-[0%] right-[37.5%] bottom-[-4.77%] left-[0%] max-w-full overflow-hidden max-h-full"
             alt=""
-            src="/circlesbg.svg"
+            src={circlesbg}
           />
           <div className="absolute top-[0rem] left-[49.63rem] bg-gray-200 w-[44.88rem] h-[56.38rem]" />
-          <img
+          <Image
             className="absolute top-[0rem] left-[0rem] w-[56.81rem] h-[56.38rem]"
             alt=""
-            src="/blur.svg"
+            src={blur}
           />
           <div className="absolute top-[10.56rem] left-[57.31rem] w-[32.13rem] h-[35.25rem]">
             <div className="absolute top-[0rem] left-[0rem] leading-[140.5%] capitalize font-medium">
               education
             </div>
-            <textarea
+            <div
               className="[border:none] bg-[transparent] font-poppins text-[1.13rem] absolute top-[7.56rem] left-[0.06rem] w-[32.06rem] h-[21rem]"
-              placeholder={`Lorem ipsum dolor sit amet consectetur. Egestas ultrices viverra nibh bibendum lacus ac hendrerit mauris. Augue
-nulla at id egestas odio ornare tellus.`}
-              defaultValue={`Lorem ipsum dolor sit amet consectetur. Egestas ultrices viverra nibh bibendum lacus ac hendrerit mauris. Augue
-nulla at id egestas odio ornare tellus.`}
-            />
-            <button className="cursor-pointer [border:none] py-[0.94rem] px-[1.88rem] bg-turquoise absolute top-[31.69rem] left-[0.06rem] rounded-8xs flex flex-row items-center justify-center gap-[0.63rem]">
-              <img
+            >Lorem ipsum dolor sit amet consectetur. Egestas ultrices viverra nibh bibendum lacus ac hendrerit mauris. Augue
+            nulla at id egestas odio ornare tellus.</div>
+            <button className="cursor-pointer border-turquoise border-[4px] [border:solid] py-[0.94rem] px-[1.88rem] bg-turquoise hover:bg-transparent hover:text-white  absolute top-[31.69rem] left-[0.06rem] rounded-8xs flex flex-row items-center justify-center gap-[0.63rem]">
+              <Image
                 className="relative w-[0.94rem] h-[1.04rem] shrink-0"
                 alt=""
-                src="/vector5.svg"
+                src={vector5}
               />
-              <img
-                className="relative w-[1.12rem] h-[1.13rem] shrink-0 hidden"
-                alt=""
-                src="/vector1.svg"
-              />
-              <div className="relative text-[1.13rem] uppercase font-semibold font-poppins text-gray-100 text-left">
+              <div className="relative text-[1.13rem] uppercase font-semibold font-poppins text-left">
                 contact
               </div>
             </button>
           </div>
-          <img
+          <Image
             className="absolute top-[15.56rem] left-[12.56rem] w-[25.25rem] h-[25.25rem]"
             alt=""
-            src="/icon.svg"
+            src={icon}
           />
         </div>
       </div>

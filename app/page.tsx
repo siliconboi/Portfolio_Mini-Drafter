@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Aboutbio from '@/components/aboutbio'
 import Skills from '@/components/skills'
 import Abouteducation from '@/components/education'
@@ -7,6 +6,7 @@ import Projects from '@/components/projects'
 import Footer from '@/components/footer'
 import Homecomp from '@/components/home'
 import Header from '@/components/header'
+import Contacts from '@/components/contacts'
 
 export default function Home() {
   return (
@@ -19,6 +19,7 @@ export default function Home() {
         <Skills/>
         <Achivements/>
         <Projects/>
+        <Contacts/>
         <Footer/>
       </div>
     </main>

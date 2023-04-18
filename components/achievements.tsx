@@ -1,17 +1,23 @@
+import Image from "next/image";
+import circlesbg from "../public/circlesbg.svg"
+import blur1 from "../public/blur1.svg"
+import streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig1 from "../public/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig1.svg"
+import propertydefault6 from "../public/property-1default6.svg"
+
 const Achivements = () => {
   return (
     <div className="relative bg-gray-100 w-full h-[56.38rem] overflow-hidden text-left text-[4.5rem] text-white font-poppins">
       <div className="absolute left-[0rem] w-[94.5rem] h-[56.38rem] overflow-hidden">
-        <img
+        <Image
           className="absolute h-[104.77%] w-[62.5%] top-[0%] right-[37.5%] bottom-[-4.77%] left-[0%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src="/circlesbg.svg"
+          src={circlesbg}
         />
         <div className="absolute top-[0rem] left-[49.63rem] bg-gray-200 w-[44.88rem] h-[56.38rem]" />
-        <img
+        <Image
           className="absolute top-[0rem] left-[0rem] w-[56.19rem] h-[56.38rem]"
           alt=""
-          src="/blur1.svg"
+          src={blur1}
         />
         <div className="absolute top-[9.63rem] left-[58.19rem] w-[31.25rem] h-[37.19rem]">
           <div className="absolute top-[0rem] left-[0.13rem] leading-[140.5%] capitalize font-medium">
@@ -42,10 +48,10 @@ const Achivements = () => {
                   <div className="relative uppercase"> mm yY</div>
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[0.63rem] left-[29rem] w-[1rem] h-[1rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig1.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig1}
               />
             </div>
             <div className="absolute top-[10.13rem] left-[0rem] rounded-3xs bg-aquamarine w-[31.25rem] h-[9.38rem] overflow-hidden">
@@ -72,10 +78,10 @@ const Achivements = () => {
                   <div className="relative uppercase"> mm yY</div>
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[0.63rem] left-[29rem] w-[1rem] h-[1rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig1.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig1}
               />
             </div>
             <div className="absolute top-[20.25rem] left-[0rem] rounded-3xs bg-aquamarine w-[31.25rem] h-[9.38rem] overflow-hidden">
@@ -102,18 +108,18 @@ const Achivements = () => {
                   <div className="relative uppercase"> mm yY</div>
                 </div>
               </div>
-              <img
+              <Image
                 className="absolute top-[0.63rem] left-[29rem] w-[1rem] h-[1rem] overflow-hidden"
                 alt=""
-                src="/streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig1.svg"
+                src={streamlineinterfacearrowsexpand5expandsmallbiggerretractsmallerbig1}
               />
             </div>
           </div>
         </div>
-        <img
+        <Image
           className="absolute top-[19.19rem] left-[15.81rem] w-[18.23rem] h-[18.91rem]"
           alt=""
-          src="/property-1default6.svg"
+          src={propertydefault6}
         />
       </div>
       
